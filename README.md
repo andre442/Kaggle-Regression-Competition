@@ -5,13 +5,16 @@ using regression methods with machine learning. With 79 explanatory variables de
 every aspect of residential homes in Ames, Iowa, this competition challenges to predict the final price of each home.
 This following code achieved a performance among the  9% best results of 5933 teams that joined  the competition!
 
-Beginning importing the main libraries:
+Beginning importing the main libraries and training data:
 
 ```
 import pandas as pd
 import math
 import numpy as np
 from sklearn.metrics import mean_absolute_error
+train_file_path = 'C:\\Users\\Andre\\Desktop\\competicao kaggle\\train.csv'
+#importando bases de dados
+base_tr = pd.read_csv(train_file_path)
 ```
 First of all, searching for null atributes:
 
