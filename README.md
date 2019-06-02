@@ -107,7 +107,7 @@ score_teste = regressor.score(X_teste, y_teste)
 Adjusting the model parameters, i´ve find that these values are the best for reach the right balance between accuracy and overfitting.
 The score for training and test was respectively:
 ```
-#score_trein 0.9270571423899016
+#score_treinamento 0.9270571423899016
 #score_teste 0.999572850099914
 ```
 Testing the predictions:
