@@ -126,8 +126,9 @@ mae = mean_absolute_error(previsoes, y_teste)
 ```
 
 A mean absolute error of 15475.60602525685 on the test group (0.25 of data) and RMSLE = 0.11595850765352847
+
 For better accuracy, you will need explore more aspects of the features variables and make a more deep analysis to obtain better results.
-The remaining code just apply the same pre-processing to the test data and generates at the end a submission file.
+The remaining code just apply the same pre-processing to the test data and generates at the end a submission file to send to Kaggle for score validation.
  
 
 
