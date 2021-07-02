@@ -76,7 +76,6 @@ For last, using label_encoder and standard_scaler to finish the pre-processing p
 from sklearn.preprocessing import LabelEncoder
 labelencoder_previsores = LabelEncoder()
 
-#just a loop for mark all categorical variables in a array
 vcategoricas = []
 for a in range(0,len(previsores[0,:])):
     if type(previsores[a,a])==str:
